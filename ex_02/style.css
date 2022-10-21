@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background: #fdd7cf;
+  font-family: "Playfair Display", serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: black;
+}
+
+#big-font {
+  font-size: 100px;
+  font-weight: 900;
+  color: #e74b33;
+  margin-top:-20px;
+}
+
+#container-input-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content-input-number {
+  display: flex;
+  flex-direction: row;
+}
+
+#counter {
+display: flex;
+margin-top:10px;
+}
+
+#text-counter {
+background-color: black;
+padding:10px;
+width:390px;
+color:#FDD6CE;
+font-family: sans-serif;
+}
+
+#number-counter {
+  background-color:#e74b33;
+  padding:10px;
+  width:100px;
+  font-family: sans-serif;
+  text-align: center;
+  color:#FDD6CE;
+}
+
+#bigger-number,
+#smaller-number {
+  font-size: 50px;
+  font-weight: 900;
+  background: #e74b33;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #fdd7cf;
+}
+
+#input-number {
+  border: none;
+  border: solid 2px #e74b33;
+  background-color: #fdd7cf;
+  color: #e74b33;
+  font-size: 50px;
+  font-weight: 900;
+  padding: 18px;
+  width: 300px;
+}
+
+input {
+  text-align: center;
+  text-decoration: none;
+}
+
+#submit-number {
+  padding: 20px;
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 20px;
+  border: solid 2px #e74b33;
+  background-color: #fdd7cf;
+  font-size: 16px;
+  font-weight: bold;
+  color: #e74b33;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+#submit-number:hover {
+  background-color: #e74b33;
+  color: #fdd7cf;
+}
+
+.hide {
+  display: none;
+}
+
+#well-done {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 900;
+  color: #e74b33;
+}
+
+#response {
+  text-align: center;
+  margin-top: 30px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+
