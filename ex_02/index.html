@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" media="screen" type="text/css" href="/style.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,35 +14,40 @@
     <title>Guess a Number</title>
   </head>
   <body>
-    <div id="title">
-      <p>Guess the right</p>
-      <p id="big-font">number!</p>
-    </div>
-    <p id="well-done"></p>
 
-    <div class="main-container">
+    <div id="container">
 
-      <div id="container-input-number">
-
-        <div id="content-input-number">
-          <p id="bigger-number">00</p>
-          <input type="text" id="input-number" />
-          <p id="smaller-number">50</p>
+      <div id="title">
+        <p>Guess the right</p>
+        <p id="big-font">number!</p>
+      </div>
+      <p id="well-done"></p>
+  
+      <div class="main-container">
+  
+        <div id="container-input-number">
+  
+          <div id="content-input-number">
+            <p id="bigger-number">00</p>
+            <input type="text" id="input-number" />
+            <p id="smaller-number">50</p>
+          </div>
+      
+          <div id="counter">
+            <div id="text-counter">NUMBER OF ATTEMPS</div>
+            <div id="number-counter">0</div>
+          </div>
+  
         </div>
-    
-        <div id="counter">
-          <div id="text-counter">NUMBER OF ATTEMPS</div>
-          <div id="number-counter">0</div>
-        </div>
-
+  
+        <button id="submit-number">SUBMIT</button>
+  
+        <h2 id="response"></h2>
+       
       </div>
 
-      <button id="submit-number">SUBMIT</button>
-
-      <h2 id="response"></h2>
-     
     </div>
-
-    <script src="/script.js"></script>
+  
+    <script src="script.js"></script>
   </body>
 </html>
