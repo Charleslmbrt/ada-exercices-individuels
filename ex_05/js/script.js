@@ -49,3 +49,16 @@ console.log("etape 3", factorial(6));
 // 360*2 720
 // 720*1 720
 // 720*1 720
+
+// ----------------------------- Etape 4 ------------------------------
+
+const fibonacci = (integer) => {
+  if (integer <= 1) {
+    return 1;
+  }
+  return fibonacci(integer - 1) + fibonacci(integer - 2);
+};
+
+console.log("<etape 4", fibonacci(8));
+
+// 1 + 1 + 2 + 3 + 5 + 8 + 13 + 21 + 34
